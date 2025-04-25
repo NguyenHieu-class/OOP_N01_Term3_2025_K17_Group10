@@ -10,7 +10,7 @@ public class Vehicle{
 
     }
      public int Avilability(String VehiclePlate){
-
+        String test = "test";
         return Amount;
 
     }
