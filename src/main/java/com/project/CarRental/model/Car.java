@@ -65,6 +65,69 @@ public class Car {
     private int maxDistanceDelivery;
     private int deliveryFeeFor1km;
 
-    
+    // km tối đa trên ngày
+    private int maximumKilometersperDay;
+    private int limitCrossingfee1Km;
+
+    private String polyUseCar;
+
+    private String addressCar;
+
+    private String avatarCar;
+
+    private String imageCar;
+
+    // số ghế ngồi
+    private int numberOfSeats;
+
+    // bluetooth
+    private boolean bluetooth;
+    // camerea hành trình
+    private boolean dashCamera;
+    // camera lùi
+    private boolean reverseCamera;
+    // camera 360
+    private boolean camera360;
+    // cam cập lề
+    private boolean parkingCamera;
+    // cảm biến ám suât lốp
+    private boolean tpms;
+    // cảnh báo tốc độ
+    private boolean speedWarning;
+    // gps
+    private boolean gpsLocator;
+    // Cửa sổ trời
+    private boolean sunroof;
+    // màn hình dvd
+    private boolean dvdScreen;
+    // tự lái hoặc có tài
+    private boolean driver;
+    // map
+    private boolean maps;
+    // ghế tre em
+    private boolean babyseat;
+    // lốp dự phòng
+    private boolean spareTire;
+    // usb
+    private boolean usb;
+    // cảnh báo va chạm
+    private boolean impactSensor;
+    // nắp thùng xe bán tải
+    private boolean bonnet;
+    // thu phí không dừng
+    private boolean etc;
+    // túi khí an toàn
+    private boolean airbags;
+    // số sàn hoặc tự dộng
+    private boolean manualTransmissionCar;
+
+    private Date createDate;
+    private Date updateDate;
+
+    private BrandCar brandCar;
+
+    private List<Booking> booking;
+
+    private User user;
 
 }
