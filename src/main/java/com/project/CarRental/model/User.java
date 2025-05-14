@@ -22,4 +22,8 @@ public class User {
 
     private int totalMoney;
 
+    private List<Booking> booking;
+
+    private List<Car> cars;
+
 }
